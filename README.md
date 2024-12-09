@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked error in Tcl file handling:  failure to check for file existence before attempting to open and process it. The `bug.tcl` file shows the erroneous code, leading to an error if the specified file is missing.  The solution, `bugSolution.tcl`, provides a corrected version with robust error handling.
